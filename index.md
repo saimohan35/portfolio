@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+```
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -29,14 +29,14 @@ var fun = function lang(l) {
   return true;
 }
 ```
-
+```
 ```ruby
 # Ruby code with syntax highlighting
 GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
-
+```
 #### Header 4
 
 *   This is an unordered list following a header.
@@ -113,7 +113,7 @@ end
 <dt>Color</dt>
 <dd>Green</dd>
 </dl>
-
+```
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
